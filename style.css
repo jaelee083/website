@@ -1,0 +1,67 @@
+
+body
+{
+    color: white;
+    background-color: black;
+    font-family: comic sans ms;
+    font-size: 16;
+    margin: 10;
+}
+
+.br
+{
+    display: block;
+    margin-bottom: 16;
+}
+
+.title
+{ 
+    text-align: center;
+    padding-top: 25;
+    padding-bottom: 50;
+}
+
+.menu
+{ 
+    padding-left: 100;
+}
+
+video
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+img
+{
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+ 
+.cat  span:hover + img { display: block; }
+.dog  span:hover + img { display: block; }
+.seal span:hover + img { display: block; }
+
+a:link         { text-decoration: none; color: white; }
+a:visited      { text-decoration: none; color: white; }
+a:hover        { text-decoration: none; color: yellowgreen; }
+a:active       { text-decoration: none; color: yellowgreen; }
+.cat a:hover   { text-decoration: none; color: hotpink; }
+.cat a:active  { text-decoration: none; color: hotpink; }
+.dog a:hover   { text-decoration: none; color: gold; }
+.dog a:active  { text-decoration: none; color: gold; }
+.seal a:hover  { text-decoration: none; color: deepskyblue; }
+.seal a:active { text-decoration: none; color: deepskyblue; }
